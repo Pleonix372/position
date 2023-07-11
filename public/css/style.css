@@ -57,3 +57,222 @@ p {
   color: black;
   margin-bottom: 20px;
 }
+
+.task1 {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.task2 .item {
+  position: absolute;
+  top: calc(50% - (80px / 2));
+  left: calc(50% - (80px / 2));
+}
+
+.task3 .item {
+  position: sticky;
+}
+
+.task4 .item {
+  position: sticky;
+  left: calc(50% - (80px / 2));
+}
+
+.task5 .item1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.task5 .item2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+
+.task5 .item3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.task6 .item {
+  float: left;
+}
+
+.task7 .item {
+  float: right;
+}
+
+.task8 .item1 {
+  float: left;
+}
+
+.task8 .item2 {
+  float: right;
+}
+
+.task8 p {
+  clear: both;
+}
+
+.task9 .item1 {
+  float: left;
+}
+
+.task9 .item2 {
+  float: right;
+}
+
+.task9 p {
+  clear: right;
+}
+
+.task10 .item1 {
+  float: left;
+}
+
+.task10 .item2 {
+  height: 50%;
+  float: right;
+}
+
+.task10 p {
+  clear: left;
+}
+
+.task11 .img-item {
+  object-fit: contain;
+}
+
+.task12 .img-item {
+  object-fit: cover;
+}
+
+.task13 .img-item {
+  object-fit: fill;
+}
+
+.task14 .img-item {
+  object-fit: scale-down;
+}
+
+.task15 .img-item {
+  object-position: right;
+}
+
+.task16 .img-item {
+  object-position: left top;
+}
+
+.task17 .img-item {
+  object-position: bottom;
+}
+
+.task18 .img-item {
+  position: absolute;
+  object-position: top left;
+  top: 25px;
+  left: 40px;
+}
+
+.task19 .img-item {
+  object-position: center;
+}
+
+.task20 {
+  user-select: none;
+}
+
+.task21 {
+  user-select: all;
+}
+
+.task22 {
+  caret-color: blue;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.task24 .img-item {
+}
+
+.task25 .img-item {
+}
+
+.task26 .img-item {
+}
+
+.task27 {
+  display: flex;
+  align-items: center;
+}
+
+.task28 {
+  display: flex;
+  align-items: stretch;
+}
+
+.task29 {
+  display: flex;
+  align-items: baseline;
+}
+
+.task30 .item1 {
+  display: flex;
+  align-self: flex-start;
+}
+
+.task31 .item2 {
+  display: flex;
+  align-self: flex-end;
+}
+
+.task32 .item3 {
+  display: flex;
+  align-self: center;
+}
+
+.task33 .item4 {
+  display: flex;
+  align-self: stretch;
+}
+
+.task34 .item1 {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.task35 .item2 {
+  display: flex;
+  flex-grow: 1;
+}
+
+.task36 .item3 {
+  display: flex;
+  flex-shrink: 0.5;
+}
+
+.task37 .item4 {
+  display: flex;
+  flex: 0 0 200px;
+}
+
+.task38 {
+  display: flex;
+  gap: 20px 30px;
+}
+
+.task39 .item1 {
+  order: 2;
+}
+
+.task39 .item3 {
+  order: 1;
+}
